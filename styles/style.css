@@ -4,7 +4,7 @@ body {
 
 .card {
   width: 12.5rem;
-  height: 425px;
+  height: 325px;
   background-color: white;
   border-radius: 5%;
   box-shadow: 0 8px 6px -6px #3D3D3D;
@@ -38,7 +38,8 @@ img:hover {
   color: #3D3D3D;
   font-family: serif;
   text-align: center;
-  font-family: 'Bitter', serif; }
+  font-family: 'Bitter', serif;
+  height: 70px }
 
 .name:hover {
   padding-top: 0.3rem;
