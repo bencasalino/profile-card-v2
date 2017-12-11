@@ -8,8 +8,7 @@ $wht: #fff;
 $blk: #000;
 $gray: #a6a8ab;
 $dgray: #3D3D3D;
-$tran: rgba(0, 0, 0, 0);
-//
+$tran: rgba(0, 0, 0, 0); //
 // $font1: font-family:'Ropa Sans', sans-serif;
 // $font2:font-family:'Patua One', cursive;
 // $font3: font-family:'Yantramanav', sans-serif;
@@ -17,186 +16,187 @@ $tran: rgba(0, 0, 0, 0);
 //
 
 body {
-    font-family: 'News Cycle', sans-serif;
-    font-family: 'Ropa Sans', sans-serif;
-    font-family: 'Patua One', cursive;
-    font-family: 'Yantramanav', sans-serif;
-    color: #043b4b;
-    color: #f48e31;
-    color: #4f7581;
-    color: #FFCC00;
-    color: #333;
-        color: $wht;
-        color: rgba(0, 0, 0, 0);
-
+  font-family: 'News Cycle', sans-serif;
+  font-family: 'Ropa Sans', sans-serif;
+  font-family: 'Patua One', cursive;
+  font-family: 'Yantramanav', sans-serif;
+  color: #043b4b;
+  color: #f48e31;
+  color: #4f7581;
+  color: #FFCC00;
+  color: #333;
+  color: $wht;
+  color: rgba(0, 0, 0, 0);
 }
 
 header {
-    height: 15vh;
-    box-shadow: 0 0.3rem 0.5rem $dgray;
-    display: flex;
-    justify-content: space-between;
-    background-color: $color3;
-    align-items: center;
-        color: $wht;
-
+  height: 15vh;
+  box-shadow: 0 0.3rem 0.5rem $dgray;
+  display: flex;
+  justify-content: space-between;
+  background-color: $color3;
+  align-items: center;
+  color: $wht;
 }
 
-
 .logo {
-    padding: 1rem;
-    height: 4rem;
-    width: 6rem;
+  padding: 1rem;
+  height: 4rem;
+  width: 6rem;
 }
 
 nav {
+  color: $wht;
+
+  ul {
     color: $wht;
-    ul {
-        color: $wht;
-        li {
-            text-decoration: none;
-            list-style: none;
-            background-color: $color2;
-            color: $wht;
-            display: flex;
-            justify-content: center;
-            flex-flow: row nowrap;
-            display: inline;
-            font-family: 'News Cycle', sans-serif;
-            box-shadow: 0 0.3rem 0.8rem $color5;
-            padding: 1rem 1.5rem 1rem 1rem;
-            font-size: 1rem;
-        }
+
+    li {
+      text-decoration: none;
+      list-style: none;
+      background-color: $color2;
+      color: $wht;
+      display: flex;
+      justify-content: center;
+      flex-flow: row nowrap;
+      display: inline;
+      font-family: 'News Cycle', sans-serif;
+      box-shadow: 0 0.3rem 0.8rem $color5;
+      padding: 1rem 1.5rem 1rem 1rem;
+      font-size: 1rem;
     }
+  }
 }
 
 nav :hover {
+  color: $wht;
+
+  ul:hover {
     color: $wht;
-    ul:hover {
-        color: $wht;
-        li:hover {
-            text-decoration: none;
-            list-style: none;
-            background-color: $color4;
-            color: $wht;
-            display: flex;
-            flex-flow: row nowrap;
-            justify-content: center;
-            display: inline;
-            font-family: 'News Cycle', sans-serif;
-            box-shadow: 0 0.3rem 0.8rem $color5;
-            padding: 1rem 1.5rem 1rem 1rem;
-            font-size: 1rem;
-        }
+
+    li:hover {
+      text-decoration: none;
+      list-style: none;
+      background-color: $color4;
+      color: $wht;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      display: inline;
+      font-family: 'News Cycle', sans-serif;
+      box-shadow: 0 0.3rem 0.8rem $color5;
+      padding: 1rem 1.5rem 1rem 1rem;
+      font-size: 1rem;
     }
+  }
 }
 // end nav header styles
 
 main {
-    justify-content: center;
-    background-color: $color1;
-    display: grid;
-    grid-gap: 2%;
-    grid-template-columns: repeat(4, 20%);
-    overflow: scroll;
-    color: $color1;
+  justify-content: center;
+  background-color: $color1;
+  display: grid;
+  grid-gap: 2%;
+  grid-template-columns: repeat(4, 20%);
+  overflow: scroll;
+  color: $color1;
   background-color: $color1;
 }
 
 .card {
-    margin-top: 3rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    width: 12.5rem;
-    height: 20.625rem;
-    background-color: $wht;
-    border-radius: 5%;
-    box-shadow: 0 8px 6px -6px $dgray;
-    color: $color5;
+  margin-top: 3rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  width: 12.5rem;
+  height: 20.625rem;
+  background-color: $wht;
+  border-radius: 5%;
+  box-shadow: 0 8px 6px -6px $dgray;
+  color: $color5;
 }
 // top
 
 .top {
-    display: flex;
-    justify-content: center;
-    flex-flow: column nowrap;
-    align-content: center;
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  align-content: center;
 }
 
 .profile-pic {
-    margin: auto;
-    width: 100%;
-    height: 12.5rem;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
-    box-shadow: 0 0.3rem 0.5rem #3D3D3D;
+  margin: auto;
+  width: 100%;
+  height: 12.5rem;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  box-shadow: 0 0.3rem 0.5rem #3D3D3D;
 }
 
 .profile-pic:hover {
-    box-shadow: 0 0.3rem 0.8rem #3D3D3D;
+  box-shadow: 0 0.3rem 0.8rem #3D3D3D;
 }
 
 img:hover {
-    -webkit-transition: 0.2s all;
-    -webkit-filter: brightness(50%);
+  -webkit-transition: 0.2s all;
+  -webkit-filter: brightness(50%);
 }
 // top
 // // mid
 //
 
 .mid {
-    display: flex;
-    justify-content: center;
-    background-color: $color3;
-    width: 100%;
-    max-height:5rem;
+  display: flex;
+  justify-content: center;
+  background-color: $color3;
+  width: 100%;
+  max-height: 5rem;
 }
 
 .name {
-    padding-top: 0.3rem;
-    font-size: 2rem;
-    color: $wht;
-    font-family: serif;
-    text-align: center;
+  padding-top: 0.3rem;
+  font-size: 2rem;
+  color: $wht;
+  font-family: serif;
+  text-align: center;
 }
 
 .name:hover {
-    padding-top: 0.3rem;
-    color: $wht;
-        font-size: 2rem;
-    font-family: serif;
-    text-align: center;
+  padding-top: 0.3rem;
+  color: $wht;
+  font-size: 2rem;
+  font-family: serif;
+  text-align: center;
 }
 
 .bot {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
 }
 
 .third {
-    border-top: 0.3rem solid;
-    border-color: $color2;
-    background-color: $wht;
-    height: 4rem;
-    width: 33.3%;
-    text-align: center;
+  border-top: 0.3rem solid;
+  border-color: $color2;
+  background-color: $wht;
+  height: 4rem;
+  width: 33.3%;
+  text-align: center;
 }
 
 .third:hover {
-    background-color: $color2;
-    box-shadow: 0 0.3rem 0.8rem $dgray;
+  background-color: $color2;
+  box-shadow: 0 0.3rem 0.8rem $dgray;
 }
 
 .left {
-    border-bottom-left-radius: 10%;
+  border-bottom-left-radius: 10%;
 }
 
 .right {
-    border-bottom-right-radius: 10%;
+  border-bottom-right-radius: 10%;
 }
 
 .icons {
-    padding-top: 1rem;
+  padding-top: 1rem;
 }
